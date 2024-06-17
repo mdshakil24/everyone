@@ -1,0 +1,455 @@
+@media all and (max-width: 1399px) {
+    .ev-customization-integrations-text h1 {
+        width: 100%;
+    }
+
+    .single-radio-checkbox {
+        margin-right: 25px;
+    }
+
+    .single-ev-get-started-content {
+        width: 100%;
+    }
+
+    .single-ev-get-started-price h1 {
+        font-size: 48px;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    .ev-header-nav ul {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .ev-header-area {
+        padding: 30px 0;
+    }
+
+    .ev-header-nav ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 136px;
+        background: #36188A;
+        width: 100%;
+        z-index: 99;
+        padding: 25px 0;
+        display: none;
+        text-align: center;
+    }
+
+    .ev-header-nav ul li a {
+        margin: 6px 0;
+        text-align: center;
+    }
+
+    .ev-home-header .ev-header-nav ul li a {
+        color: #ffffff;
+    }
+
+    .ev-home-left-content h1,
+    .ev-home-left-content p,
+    .ev-compromise-left-text-content p {
+        max-width: 100%;
+    }
+
+    .ev-home-right-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .after-before-left-borders,
+    .after-before-right-borders {
+        display: none;
+    }
+
+    .ev-home-header::after {
+        height: 85%;
+    }
+
+    .ev-header-logo img {
+        width: 385px;
+    }
+
+    .first-case {
+        margin-left: 0;
+    }
+
+    .ev-customization-integrations-text h1 {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .single-ev-integrations-buttons {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .ev-customization-content {
+        margin-bottom: 50px;
+    }
+
+    .ev-integrations-right-buttons::after {
+        right: 0;
+        top: -15px;
+        left: 0;
+        margin: auto;
+    }
+
+    .ev-compromise-right-content {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .ev-get-started-content {
+        width: 100%;
+    }
+
+    .single-ev-get-started-price h1 {
+        font-size: 38px;
+    }
+
+    .single-ev-get-started-price p {
+        width: 95%;
+    }
+
+    .single-get-started-list img {
+        height: 22px;
+    }
+
+    .ev-sign-in-left-content {
+        padding: 85px 45px 40px;
+    }
+
+    .ev-contact-right-information {
+        padding: 40px 15px 40px 0;
+    }
+
+    .single-radio-checkbox {
+        margin-right: 15px;
+    }
+
+
+
+}
+
+
+@media all and (max-width: 991px) {
+    .single-ev-daysin-content {
+        padding: 0;
+    }
+
+    .second-case {
+        margin: 50px 0;
+    }
+
+    .third-case {
+        margin-left: 0;
+    }
+
+    .gold-bg {
+        margin-top: 30px;
+    }
+
+
+}
+
+
+@media all and (max-width: 767px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .ev-customization-integrations-area,
+    .ev-real-cases-area {
+        padding: 80px 0;
+    }
+
+    .ev-header-nav ul {
+        top: 120px;
+    }
+
+    .ev-header-logo img,
+    .ev-footer-logo img {
+        width: 300px;
+    }
+
+    .ev-daysin-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .single-ev-daysin-content {
+        margin: 8px 0;
+    }
+
+    .ev-compromise-right-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ev-integrations-right-buttons .single-ev-integrations-buttons:first-child {
+        margin-left: 0;
+    }
+
+    .single-ev-integrations-btn a {
+        font-size: 18px;
+        width: 155px;
+    }
+
+    .single-ev-customization-right-content {
+        padding-left: 0;
+    }
+
+    .ev-contact-right-information {
+        padding: 40px 0 40px 0;
+    }
+
+    .single-radio-checkbox {
+        margin-right: 10px;
+    }
+
+
+
+
+}
+
+
+@media all and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .ev-home-right-image img {
+        width: 90%;
+        height: auto;
+    }
+
+    .ev-integrations-right-buttons::after {
+        display: none;
+    }
+
+    .ev-header-logo img,
+    .ev-footer-logo img {
+        width: 250px;
+    }
+
+    .ev-header-nav ul {
+        top: 110px;
+    }
+
+    .ev-daysin-area {
+        padding-top: 35px;
+    }
+
+    .ev-home-buttons a {
+        font-size: 18px;
+        width: 160px;
+        padding: 12px 10px;
+    }
+
+    .single-ev-customization-right-content {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+    .single-ev-integrations-buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .submit-forgot-btn input {
+        margin-top: 0px;
+    }
+
+    .ev-sign-in-area,
+    .ev-contact-information-area {
+        padding: 50px 0;
+    }
+
+    .message-send-button {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .ev-contact-left-information .similar-btn a {
+        margin-top: 50px;
+    }
+
+    .ev-contact-left-information .ev-footer-social-link ul {
+        margin-top: 80px;
+    }
+
+    .ev-contact-left-information::after {
+        right: -110px;
+        bottom: -110px;
+    }
+
+    .ev-contact-left-information::before {
+        right: 40px;
+        bottom: 50px;
+    }
+
+    .single-input-field {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+    .ev-double-right-contact-field {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .all-radio-checkbox {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .single-radio-checkbox {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .single-ev-integrations-btn a {
+        font-size: 18px;
+        width: 180px;
+    }
+
+    .ev-real-cases-left-heading::before {
+        left: 0;
+        width: 90px;
+        height: 65px;
+    }
+
+}
+
+
+@media all and (max-width: 450px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2,
+    .single-ev-customization-right-text h5,
+    .ev-sign-in-left-paragraf p,
+    .ev-contact-left-information h3 {
+        font-size: 25px;
+    }
+
+    p,
+    .ev-real-case-customer-text p {
+        font-size: 16px;
+    }
+
+    .ev-header-nav ul {
+        top: 100px;
+    }
+
+    .ev-real-case-customer-bottom-text h6 {
+        font-size: 17px;
+    }
+
+    .ev-home-buttons a,
+    .similar-btn a,
+    .message-send-button a {
+        font-size: 15px;
+        width: 140px;
+    }
+
+    .ev-home-right-image img {
+        width: 95%;
+    }
+
+    .single-ev-business-tailor-text h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .ev-customization-integrations-area,
+    .ev-real-cases-area {
+        padding: 50px 0;
+    }
+
+    .ev-header-logo img,
+    .ev-footer-logo img {
+        width: 200px;
+    }
+
+    .ev-home-left-content {
+        padding-top: 40px;
+    }
+
+    .ev-footer-page-link ul li a {
+        font-size: 13px;
+        margin: 0 8px;
+    }
+
+    .ev-sign-in-left-content {
+        padding: 45px 25px 40px;
+    }
+
+    .ev-sign-in-left-content .ev-real-case-customer {
+        margin: 25px auto;
+    }
+
+    .sign-up-button a {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .ev-sign-in-right-heading {
+        padding-bottom: 30px;
+    }
+
+    .ev-sign-in-right-content {
+        padding-top: 50px;
+    }
+
+    .ev-sign-in-right-form input {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .ev-contact-left-information {
+        padding: 25px;
+    }
+
+    .ev-contact-info a i {
+        margin-right: 15px;
+    }
+
+    .single-input-field,
+    .all-radio-checkbox {
+        margin-bottom: 30px;
+    }
+
+
+
+}
