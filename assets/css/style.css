@@ -45,6 +45,7 @@ li {
   padding: 0;
   list-style: none;
 }
+
 h1 {
   font-weight: 700;
   font-size: 50px;
@@ -80,6 +81,7 @@ p {
   padding: 15px 10px;
   border-radius: 10px;
 }
+
 .similar-btn a.ybg {
   background: #FEA708;
   color: #36188A;
@@ -93,6 +95,7 @@ p {
   position: relative;
   z-index: 1;
 }
+
 .ev-home-header::after {
   content: '';
   position: absolute;
@@ -105,9 +108,12 @@ p {
   top: 0;
   z-index: -4;
 }
-.after-before-left-borders img,.after-before-right-borders img {
+
+.after-before-left-borders img,
+.after-before-right-borders img {
   position: absolute;
 }
+
 .after-before-left-borders img.le1 {
   width: 35%;
   height: 280px;
@@ -115,6 +121,7 @@ p {
   bottom: 0;
   z-index: -1;
 }
+
 .after-before-left-borders img.le2 {
   width: 22%;
   height: 155px;
@@ -122,6 +129,7 @@ p {
   bottom: 25px;
   z-index: -2;
 }
+
 .after-before-right-borders img.ri1 {
   position: absolute;
   right: 0;
@@ -130,6 +138,7 @@ p {
   width: 50%;
   z-index: -1;
 }
+
 .after-before-right-borders img.ri2 {
   bottom: 350px;
   height: 180px;
@@ -137,6 +146,7 @@ p {
   z-index: -2;
   width: 35%;
 }
+
 .after-before-right-borders img.ri3 {
   right: 0;
   bottom: 288px;
@@ -192,7 +202,7 @@ p {
 
 .ev-home-left-content h1 {
   max-width: 580px;
-  text-shadow: 0 4px 4px rgba(0,0,0,.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .ev-home-left-content {
@@ -228,10 +238,12 @@ p {
   background: transparent;
   color: #36188A;
 }
+
 .ev-home-buttons a.withoutbg {
   background: transparent;
   color: #36188A;
 }
+
 .ev-home-buttons a.withoutbg:hover {
   background: #36188A;
   color: #FFFFFF;
@@ -245,6 +257,7 @@ p {
   background-color: #FFFFFF;
   padding-top: 80px;
 }
+
 .ev-daysin-content {
   max-width: 880px;
   width: 100%;
@@ -258,9 +271,11 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+
 .single-ev-daysin-content {
   padding: 0 30px;
 }
+
 .single-ev-daysin-content p {
   font-weight: 400;
   font-size: 30px;
@@ -275,23 +290,28 @@ p {
   background-color: #FFFFFF;
   padding: 65px 0;
 }
-.ev-business-tailor-heading  {
+
+.ev-business-tailor-heading {
   margin-bottom: 70px;
 }
+
 .ev-business-tailor-heading p {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
   margin-top: 20px;
 }
+
 .single-ev-business-tailor-content {
   text-align: center;
   margin-bottom: 35px;
 }
+
 .single-ev-business-tailor-text h2 {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+
 .single-ev-business-tailor-text p {
   max-width: 95%;
   margin: 0 auto;
@@ -305,17 +325,22 @@ p {
   padding-top: 90px;
   padding-bottom: 135px;
 }
+
 .ev-real-cases-area.get-started {
   background-color: #3FB348;
 }
-.get-started .ev-real-cases-left-heading h1,.get-started .ev-real-cases-left-heading p {
+
+.get-started .ev-real-cases-left-heading h1,
+.get-started .ev-real-cases-left-heading p {
   color: #FFFFFF;
 }
+
 .ev-real-cases-left-heading {
   position: relative;
   margin-bottom: 60px;
   z-index: 1;
 }
+
 .ev-real-cases-left-heading::before {
   content: '';
   position: absolute;
@@ -328,12 +353,14 @@ p {
   height: 100px;
   z-index: -1;
 }
+
 .ev-real-case-customer {
   background: #FFFFFF;
   padding: 20px 20px;
-  box-shadow: 0 2px 4px rgba(2,72,96,.25);
+  box-shadow: 0 2px 4px rgba(2, 72, 96, .25);
   box-sizing: border-box;
 }
+
 .first-case {
   max-width: 400px;
   height: 390px;
@@ -410,20 +437,25 @@ p {
   background-color: #FFFFFF;
   padding: 125px 0;
 }
+
 .ev-customization-integrations-area.contact-page {
   background-color: rgba(254, 167, 8, .2);
 }
+
 .ev-customization-integrations-text h1 {
   width: 90%;
 }
+
 .ev-customization-content {
   margin-bottom: 130px;
 }
+
 .ev-customization-right-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .single-ev-customization-right-content {
   flex: 0 0 50%;
   display: flex;
@@ -432,9 +464,11 @@ p {
   margin-bottom: 25px;
   padding-left: 50px;
 }
+
 .single-ev-customization-right-icon {
   margin-right: 20px;
 }
+
 .single-ev-customization-right-text h5 {
   font-weight: 700;
   font-size: 30px;
@@ -448,10 +482,12 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .ev-integrations-right-buttons {
   position: relative;
   z-index: 1;
 }
+
 .ev-integrations-right-buttons::after {
   content: '';
   position: absolute;
@@ -464,9 +500,11 @@ p {
   top: -25px;
   z-index: -1;
 }
+
 .ev-integrations-right-buttons .single-ev-integrations-buttons:first-child {
   margin-left: 42px;
 }
+
 .single-ev-integrations-btn a {
   font-weight: 700;
   font-size: 20px;
@@ -479,11 +517,13 @@ p {
   border-radius: 10px;
   margin: 10px 0;
 }
+
 .single-ev-integrations-btn a.ybg {
   background: #FEA708;
   color: #36188A;
   margin: 10px 25px;
 }
+
 /*===== End EV Customization Integrations Area Css  =====*/
 
 /*===== Start EV Compromise Area Css =====*/
@@ -496,12 +536,15 @@ p {
 .ev-compromise-content .row {
   align-items: center;
 }
+
 .ev-compromise-left-content {
   padding: 25px 0
 }
+
 .ev-compromise-left-text-content h1 {
   width: 90%;
 }
+
 .ev-compromise-left-text-content p {
   max-width: 525px;
   width: 100%;
@@ -511,19 +554,376 @@ p {
 
 /*===== End EV Compromise Area Css =====*/
 
+/*=============== Start EV Contact Page Css ===============*/
+.ev-contact-information-area {
+  background-color: #FDFDFD;
+  padding: 75px 0;
+}
+.ev-contact-information-content {
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,.03);
+
+}
+.ev-contact-left-information {
+  background: #3FB348;
+  padding: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.ev-contact-left-information::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(255,224,167, .5);
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  right: 65px;
+  bottom: 70px;
+  z-index: -1;
+}
+.ev-contact-left-information::after {
+  content: '';
+  position: absolute;
+  background-color: rgba(254,167,8, 1);
+  width: 269px;
+  height: 269px;
+  border-radius: 50%;
+  right: -90px;
+  bottom: -90px;
+  z-index: -2;
+}
+.ev-contact-left-information h3 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #36188A;
+  text-transform: capitalize;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.ev-contact-left-information p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  margin-bottom: 35px;
+}
+.ev-contact-info a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  display: block;
+}
+.ev-contact-info a:first-child {
+  margin-bottom: 50px;
+}
+.ev-contact-info a i {
+  color: #36188A;
+  margin-right: 25px;
+}
+.ev-contact-left-information .similar-btn a {
+  background: #FEA708;
+  border-radius: 5px;
+  width: 150px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 15px;
+  border: 2px solid #3FB348;
+  color: #36188A;
+  margin-top: 120px;
+}
+.ev-contact-left-information .ev-footer-social-link ul {
+  justify-content: flex-start;
+  margin: 0;
+  margin-top: 140px;
+}
+.ev-contact-left-information .ev-footer-social-link ul li a {
+  color: #3FB348;
+}
+
+.ev-contact-right-information {
+  padding: 40px 40px 40px 25px;
+}
+
+.ev-contact-right-information label,.textarea-message label {
+  font-weight: 500;
+  font-size: 12px;
+  color: #36188A;
+  display: block;
+}
+
+.ev-double-right-contact-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.single-input-field {
+  flex: 0 0 47%;
+  margin-bottom: 50px;
+}
+
+.ev-contact-right-information input,.textarea-message textarea {
+  font-weight: 500;
+  font-size: 14px;
+  color: #8D8D8D;
+  text-transform: inherit;
+  border: none;
+  padding: 5px 0;
+  border-bottom: 1px solid #8D8D8D;
+  width: 100%;
+}
+.textarea-message textarea {
+  resize: none;
+  height: 35px;
+  margin-top: 5px;
+}
+.radio-checkbox h4 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #36188A;
+}
+.all-radio-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.single-radio-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 30px;
+}
+.radio-checkbox h4 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #36188A;
+  margin-bottom: 15px;
+}
+.single-radio-checkbox  input {
+  width: auto;
+}
+.message-send-button {
+  text-align: right;
+  margin-top: 50px;
+}
+.message-send-button a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #36188A;
+  text-transform: capitalize;
+  border: 2px solid #36188A;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: .3s;
+}
+.message-send-button a:hover {
+  background-color: #36188A;
+  color: #FFFFFF;
+}
+
+/* .single-radio-checkbox {
+  display: block;
+  margin-bottom: 15px;
+} */
+
+.single-radio-checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.single-radio-checkbox label {
+  position: relative;
+  cursor: pointer;
+}
+
+.single-radio-checkbox label:before {
+  content: '';
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  background: url('../images/circle.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.single-radio-checkbox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: url('../images/circle-tik.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 13px;
+  height: 13px;
+}
 
 
-
-
+/*=============== End EV Contact Page Css ===============*/
 
 /*=============== Start EV Sign In Page Css ===============*/
+.ev-sign-in-area {
+  background-color: #FFFFFF;
+  padding-top: 90px;
+  padding-bottom: 130px;
+}
 
+.ev-sign-in-left-content {
+  background-color: #3FB348;
+  padding: 90px 85px 50px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
 
+.ev-sign-in-left-content .ev-real-case-customer {
+  padding-bottom: 50px;
+}
 
+.ev-sign-in-left-content::before {
+  content: '';
+  position: absolute;
+  background: url('../images/quote.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 25px;
+  top: 25px;
+  width: 70px;
+  height: 60px;
+  z-index: -1;
+}
+
+.ev-sign-in-left-paragraf p {
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  line-height: normal;
+  text-align: center;
+}
+
+.ev-sign-in-left-content .ev-real-case-customer {
+  max-width: 415px;
+  margin: 45px auto;
+}
+
+.ev-sign-in-left-content .ev-real-case-customer-text,
+.ev-sign-in-left-content .ev-real-case-customer-bottom-text {
+  width: 90%;
+}
+
+.sign-up-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sign-up-button a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  background: #36188A;
+  width: 230px;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 2px solid #FFFFFF;
+}
+
+.ev-sign-in-right-content {
+  max-width: 415px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.ev-sign-in-right-heading {
+  padding-bottom: 45px;
+}
+
+.ev-sign-in-right-heading h3 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #36188A;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.ev-sign-in-right-heading p {
+  font-size: 18px;
+}
+
+.ev-sign-in-right-form input {
+  font-weight: 400;
+  font-size: 20px;
+  color: #36188A;
+  border: 2px solid #36188A;
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 25px;
+  margin-bottom: 40px;
+}
+
+.ev-sign-in-right-form input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  color: #36188A;
+}
+
+.submit-forgot-btn {
+  text-align: center;
+}
+
+.submit-forgot-btn input {
+  font-weight: 700;
+  font-size: 20px;
+  color: #36188A;
+  text-transform: inherit;
+  background: #FEA708;
+  width: 180px;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  transition: .3s;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.submit-forgot-btn input:hover {
+  background-color: #36188A;
+  color: #FFFFFF;
+}
+
+.submit-forgot-btn a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #36188A;
+  text-transform: inherit;
+  transition: .3s;
+}
+.submit-forgot-btn a:hover {
+  color: #FEA708;
+}
 /*=============== End EV Sign In Page Css ===============*/
 
 /*=============== Start EV Get Started Page Css ===============*/
-
 .ev-get-started-area {
   background: url('../images/get-start-bg.png');
   background-repeat: no-repeat;
@@ -531,16 +931,19 @@ p {
   padding-top: 35px;
   padding-bottom: 55px;
 }
+
 .ev-get-started-content {
   width: 90%;
   margin: 0 auto;
 }
+
 .single-ev-get-started-content {
   width: 93%;
   margin: 0 auto;
   padding: 30px 25px;
   border-radius: 10px;
 }
+
 .silver-bg {
   background-color: #36188A;
   border: 4px solid #36188A;
@@ -560,11 +963,13 @@ p {
   padding-left: 30px;
   margin: 5px 0;
 }
+
 .single-ev-get-started-price h1 sub {
   font-weight: 400;
   font-size: 20px;
   color: #36188A;
 }
+
 .single-ev-get-started-price p {
   font-weight: 500;
   width: 90%;
@@ -580,18 +985,23 @@ p {
   align-items: flex-start;
   margin: 25px 0;
 }
+
 .single-get-started-list img {
   height: 29px;
   width: auto;
   margin-right: 10px;
 }
+
 .single-ev-signup-btn {
   text-align: center;
 }
 
-.silver-bg p,.silver-bg h1,.silver-bg h1 sub {
+.silver-bg p,
+.silver-bg h1,
+.silver-bg h1 sub {
   color: #FFFFFF;
 }
+
 .silver-bg .similar-btn a {
   background-color: #3FB348;
   border: 2px solid #FEA708;
@@ -606,23 +1016,28 @@ p {
   background-color: #36188A;
   padding: 50px 0 35px;
 }
+
 .ev-footer-logo img {
   width: 350px;
   height: auto;
 }
+
 .ev-footer-page-link {
   margin-top: 35px;
   margin-bottom: 35px;
 }
+
 .ev-footer-page-link ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .ev-footer-page-link ul:first-child {
   margin-bottom: 30px;
 }
+
 .ev-footer-page-link ul li a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -633,9 +1048,11 @@ p {
   margin: 0 15px;
   transition: .3s;
 }
+
 .ev-footer-page-link ul li a:hover {
   color: #22fe33;
 }
+
 .ev-footer-social-link ul {
   display: flex;
   flex-direction: row;
@@ -644,6 +1061,7 @@ p {
   margin-top: 35px;
   margin-bottom: 50px;
 }
+
 .ev-footer-social-link ul li a {
   font-size: 16px;
   color: #36188A;
@@ -656,10 +1074,12 @@ p {
   transition: .3s;
   margin: 0 12px;
 }
+
 .ev-footer-social-link ul li a:hover {
   background-color: #FEA708;
   color: #FFFFFF;
 }
+
 .ev-footer-copyright-text p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -667,4 +1087,5 @@ p {
   color: #D1D5DB;
   text-transform: inherit;
 }
+
 /*===== End EV Footer Area Css =====*/
